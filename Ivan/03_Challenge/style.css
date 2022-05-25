@@ -1,0 +1,160 @@
+
+.margin-0{
+  margin: 0;
+}
+.flex{
+  display: flex;
+}
+.b{
+border:1px solid red;
+}
+
+.font1{
+  font-size: 16px;
+}
+nav{
+  margin: -8px;
+  height: 5em;
+  display: grid;
+  grid-template-rows:60% 40%;
+  font-family: sans-serif;
+}
+
+.nav-search {
+  font-size: small;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  color: white;
+  background-color: rgb(19, 25, 33);
+}
+
+.nav-left {
+  padding-left: 2em;
+ min-width: 8em;
+  width: 10%;
+  display: flex;
+  gap: 1em;
+}
+
+.logo {
+  font-family: monospace;
+  font-size:2em ;
+  font-weight: bold;
+}
+.deliver {
+  
+}
+
+
+
+
+.nav-middle{
+  width: 70%;
+  height: 2.4em;
+  
+}
+.form-search-nav{
+  width: 100%;
+}
+
+.nav-left-search{
+  min-width: 7em;
+}
+.nav-dropdown{
+  width: 100%;
+  height: 2.4em;
+  
+}
+.nav-drop-btn{
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgb(243, 243, 243);
+}
+.nav-middle-search{
+  width: 100%;
+  min-width: 12em;
+}
+
+.search{
+  width: 100%;
+  
+  
+
+}
+.input-search{
+  width: 100%;
+}
+.search-btn{
+  width: 2.8em;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ background-color: rgb(254, 189, 105);
+}
+
+.nav-right{
+  gap: 1em;
+  min-width: 20em;
+}
+.lang{
+  width: 1.5em;
+  margin-top: 1em;
+}
+.lang:hover{
+  border: 1px solid white;
+}
+.lang:hover .dropdown-lang{
+  display: grid;
+}
+.dropdown-lang{
+  color: black;
+  display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 8em;
+    padding: 12px 16px;
+      z-index: 1;
+}
+.dropdown-lang input{
+  color: black;
+  display: inline-block;
+  margin: 1em;
+}
+
+.cart{
+  margin-top: 1.5em;
+}
+
+
+.deliver p {
+  margin: 0;
+
+}
+.deliver-in{
+  margin-top: 2.5em;
+}
+.login p{
+  margin: 0;
+}
+.login-in{
+  margin-top: 1.5em;
+}
+.orders-in{
+margin-top: 1.5em;
+}
+
+.nav-bar-s{
+  color: white;
+  background-color: rgb(35, 47, 62);
+  gap: 2em;
+  font-size: 18px;
+}
+.nav-bar{
+  align-self: center;
+  gap: 2em;
+  font-weight: bold;
+}
+.all{
+  margin-left: 2em;
+}

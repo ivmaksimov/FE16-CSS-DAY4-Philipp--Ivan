@@ -1,0 +1,114 @@
+body{
+  background-color: rgb(46, 43, 43);
+}
+.container{
+  display: grid;
+  grid-gap: 20px;
+  background-color: bisque;
+}
+header{
+  width: 100%;
+  height: 5em;
+  background-color: antiquewhite;
+}
+.header{
+  text-align: center;
+}
+h1{
+  font-size: 3em;
+  text-shadow: 4px 4px 4px ;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% auto;
+  gap: 0.2em;
+  background-color: rgb(46, 43, 43);
+  height: 3.4em;
+}
+
+.btn {
+  /* width: 5em; */
+  margin-top: 0.2em;
+  max-height: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(95, 92, 92);
+  text-align: center;
+  padding: 0.5em;
+
+}
+
+.btn:hover {
+  padding: 0.8em;
+  background-color: rgb(76, 77, 77);
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 20px;
+}
+
+.img-1{
+  background-image: url(../files/river-7133713.jpg);
+  background-size: cover;
+  background-position: bottom ;
+  grid-column: 1/5;
+grid-row: 1/4;
+}
+.img-2 {
+  background-image: url(../files/yoga.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 5/9;
+  grid-row: 1/7;
+}
+.img-3 {
+  background-image: url(../files/couple-6976409.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/3;
+  grid-row: 4/7;
+}
+.img-4 {
+  background-image: url(../files/tourist-4400871.jpg);
+  background-size: cover;
+  background-position: bottom;
+  grid-column: 3/5;
+  grid-row: 4/7;
+}
+.img-5 {
+  background-image: url(../files/beach-7087722.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/5;
+  grid-row: 7/9;
+}
+.img-6 {
+  background-image: url(../files/desert-7162926.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 5/-1;
+  grid-row: 7/9;
+}
+footer{
+  display: flex;
+  justify-content: center;
+background-color:rgb(46, 43, 43); 
+color: white;
+text-align: center;
+font-size: 1.3em;
+}
+a{
+  color: white;
+}
+p{
+  margin: 0;
+}
+.footer{
+  text-align: start;
+ width: 60%;
+ padding: 1em;
+}
+

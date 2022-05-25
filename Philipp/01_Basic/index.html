@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 | Basic exercise 2</title>
+    <style>
+        html {
+            font-family: Helvetica;
+        }
+
+        nav {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        ol * {
+            display: flex;
+            margin: 0 auto;
+            text-decoration: none;
+            color: white;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button {
+            display: flex;
+            height: 40px;
+            width: 100px;
+            border: 0;
+            border-radius: 10px;
+            background-image: linear-gradient(to bottom, lightgray,gray);
+            background-color: darkblue;
+            transition: 1s;
+        }
+
+        .btn1:hover {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ol>
+            <li class="button btn1"><a href="#">Button1</a></li>
+            <li class="button"><a href="#">Button2</a></li>
+            <li class="button"><a href="#">Button3</a></li>
+            <li class="button"><a href="#">Button4</a></li>
+            <li class="button"><a href="#">Button5</a></li>
+        </ol>
+    </nav>
+</body>
+</html>
